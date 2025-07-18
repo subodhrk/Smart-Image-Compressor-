@@ -69,7 +69,13 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📜 License
 
-This project is open-source and available under the [BAMU](LICENSE).
+Dr Bamu License  
+Copyright © 2025 Subodh Kamble
+
+Permission is granted to use, copy, modify, and distribute this software for any purpose, with or without fee, provided that the above copyright notice appears in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
 
 ---
 
