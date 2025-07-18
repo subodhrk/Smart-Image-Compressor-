@@ -7,7 +7,7 @@ A Python Flask web application that allows users to:
 - Remove background using AI (Rembg + U-2-Net)  
 - Download the processed image instantly  
 
-🔗 **Live App:** [Smart Image Compressor on Render](https://smart-image-compressor-1.onrender.com/)
+🔗 **Live App:** [Smart Image Compressor on Render](https://smart-image-compressor-auij.onrender.com)
 
 ---
 
