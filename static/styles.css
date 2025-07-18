@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Header / Intro */
+.intro-screen {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  transition: all 1s ease;
+}
+.intro-screen h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.intro-screen p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.intro-screen button {
+  margin-top: 25px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.intro-screen button:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+/* Main Content */
+.main-content {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 850px;
+  margin: 40px auto;
+}
+
+.main-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2b7de9;
+}
+
+label.form-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input[type="file"],
+input[type="number"],
+input[type="color"],
+select,
+button[type="submit"] {
+  margin-bottom: 20px;
+}
+
+/* Preview Image */
+#preview {
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom Button */
+button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  transition: 0.3s ease;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
